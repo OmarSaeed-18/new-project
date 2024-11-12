@@ -1,0 +1,583 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(15, 15, 15);
+    /* color: #333;
+    background-color: #fff;
+    min-height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px; */
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    border: 1px solid rgb(56, 56, 56);
+    margin-top: 20px;
+    border-radius: 5px;
+
+   
+}
+.item1{
+    display: flex;
+    justify-content: center;
+    
+}
+.item2{
+    display: flex;
+}
+.chap1{
+    padding: 10px;
+    color: darkgray;
+    position: relative;
+   
+}
+.list1{
+    position: absolute;
+    top: 80px;
+    color: white;
+    border: 1px rgb(105, 105, 105);
+    background-color: black;
+     display: none;
+    
+} 
+.chap1:hover .list1{
+    display: block;
+    
+}
+
+
+.chap2{
+    padding: 14px;
+    color: darkgray;
+   
+}
+.chap3{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    
+}
+.chap4{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    border: 1px solid rgb(8, 1, 1);
+    margin: 4px;
+    border-radius: 5px;
+    color: darkgray;
+    box-shadow: 0px -1px 1px 1px red;
+    margin-right: 15px;
+}
+.chap4:hover{
+    border-radius: 30px;
+}
+.chap1:hover{
+    color: white;
+    cursor: pointer;
+}
+.chap2:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.cinter{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 30px;
+    width: 12.5%;
+    align-items: center;
+    margin: auto;
+    margin-top: 70px;
+    font-size:smaller;
+}
+.cinter2{
+    border: 1px solid gray;
+    border-radius: 30px;
+    color: darkgray;
+    padding: 3px 5px;
+    background-color: black;
+    margin-right: 8px;
+}
+
+
+
+.cinter3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px ;
+    color: silver;
+    font-size:xx-large;
+    transform: scale(1.1);
+      
+}
+
+.cinter4{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px ;
+    color: rgb(136, 134, 134);
+    font-size:xx-large;
+    transform: scale(1.1);
+}
+
+.cinter5{
+    display: flex;
+    justify-content: center;
+    color: rgb(136, 134, 134);
+    width: 29%;
+    margin: auto;
+    margin-top: 30px ;
+}
+
+
+.cinter6{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    gap: 20px;
+    color: white;
+}
+
+.cinter7{
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.cinter8{
+    border: 1px solid rgb(12, 11, 11);
+    border-radius: 30px;
+    background-color: rgb(27, 25, 25);
+    color: rgb(252, 249, 249);
+    padding: 15px 20px;
+    cursor: pointer;
+    position: relative;
+    transition:  3s all ease;
+}
+
+
+.cinter9{
+    position: absolute;
+    top: 49px;
+    left: -3px;
+    right: -2px;
+    bottom: -1px;
+    background-color: black;
+    border-radius: 30px; 
+    overflow: hidden;
+    display: none;
+    transition: 3s all ease;
+    
+}
+
+
+.cinter8:hover .cinter9{
+    display: block;
+    top: -3px;
+    left: -3px;
+    right: -1px;
+    bottom: -1px;
+}
+
+
+.cinter10{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+ 
+    
+}
+
+img{
+    width: 90%;
+}
+
+
+.cinter11{
+    display: flex;
+    justify-content: center;
+    color: rgb(136, 134, 134);
+    margin: auto;
+    margin-top: 60px ;
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+
+
+.cinter12{
+    position: relative;
+    z-index: 1111111;
+}
+
+.omar{
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    width: 25%;
+   height: 200px;
+    padding: 20px;
+}
+
+
+.omar2{
+color: white;
+font-size: xx-large;
+}
+
+.omar3{
+    color: white;
+    font-size: larger;
+    display: block;
+    margin-bottom: 7px;
+}
+
+
+.omar4{
+color: rgb(122, 122, 122);
+}
+
+.omar5{
+border: 1px solid rgb(56, 56, 56);
+border-radius: 10px;
+width: 20%;
+padding: 20px;
+width: 25%;
+height: 200px;
+}
+
+.omar6{
+    width: 60px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.omar7{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+.omar8{
+    
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    height: 400px;
+}
+
+.omar9{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 25px ;
+    color: silver;
+}
+
+.omar10{
+    border: 1px solid rgb(56, 56, 56);
+    width: 22%;
+    
+}
+
+
+.omar11{
+    display: flex;
+    justify-content: center;
+}
+
+.omar12{
+    color: rgb(100, 100, 100);
+    margin-right: 25px;
+}
+
+
+.omar13{
+    width: 48%;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    height: 280px;
+    
+}
+
+.omar14{
+    color: white;
+    font-size: xx-large;
+    /* padding: 20px; */
+  
+  
+
+}
+
+
+.omar15{
+    color: white;
+    font-size: larger;
+    /* padding: 20px; */
+    margin-bottom: 60px;
+    
+
+}
+
+
+.omar16{
+    width: 55%;
+    transform: translate(260px, -99px);
+}
+
+.omar17{
+    transform: translate(50px,50px);
+}
+
+.omar18{
+    position: relative;
+    top: 150px;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    
+}
+
+
+.omar19{
+transform: translate(184px,-230px);
+width: 1500px;
+}
+
+
+.cinter15{
+    display: flex;
+    justify-content: center;
+}
+
+.cinter16{
+    color: silver;
+    font-size: xx-large;
+    transform: scale(1.5);
+    margin-bottom: 60px;
+}
+
+
+.omar20{
+    width: 300px;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.omar21{
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.omar22{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.omar23{
+    border-radius: 10px;
+    
+}
+
+
+.omar24{
+  
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: silver;
+    display: inline-block;
+}
+
+
+.omar20:hover .omar21{
+    color: rgb(255, 180, 122);
+}
+
+.omar20:hover .omar23{
+    transform: scale(1.1);
+}
+
+
+.omar24:hover i{
+    padding-left: 10px;
+}
+
+
+.omar25{
+    display: flex;
+    gap: 40px;
+    margin-left: 220px;
+    margin-bottom: 150px;
+}
+
+
+.omar26{
+    display: flex;
+    gap: 40px;
+    margin-left: 220px;
+    margin-bottom: 50px;
+}
+
+
+.omar27{
+    display: flex;
+    gap: 40px;
+    margin-left: 220px;
+    margin-bottom: 150px;
+}
+
+.omar28{
+    width: 300px;
+    height: 280px;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.omar28:hover .omar21{
+    color: rgb(255, 180, 122);
+}
+
+.omar28:hover .omar23{
+    transform: scale(1.1);
+}
+
+.omar29{
+    display: flex;
+    gap: 40px;
+    margin-left: 220px;
+    margin-bottom: 350px;
+}
+
+.cinter20{
+    display: flex;
+    justify-content: center;
+    color: rgb(136, 134, 134);
+    width: 19%;
+    margin: auto;
+    margin-top: 30px ;
+    text-align: center;
+}
+
+.cinter21{
+border: 1px solid white;
+border-radius: 30px;
+background-color: white;
+color: black;
+padding: 10px 15px;
+padding-top: 15px;
+cursor: pointer;
+width: 12%;
+display: flex;
+justify-content: center;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 300px;
+}
+
+
+.cinter22{
+    color: #494949;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.cinter23{
+    width: 300px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+
+.cinter24{
+    width: 30px;
+    border-radius: 50%;
+    /* border: 0.5px solid rgb(56, 56, 56); */
+    background-color: #494949;
+}
+
+.cinter24:hover{
+    background-color: black;
+}
+
+.cinter25{
+    width: 28px;
+    border-radius: 50%;
+    /* border: 0.5px solid rgb(56, 56, 56); */
+    background-color: #494949;
+    margin-left: 5px;
+}
+
+.cinter25:hover{
+    background-color: black;
+}
+
+.cinter26{
+    display:inline-block;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.cinter27{
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #494949;
+    cursor: pointer;
+}
+
+.cinter27:hover{
+    color: white;
+}
+
+.cinter28{
+    display: flex;
+    flex-direction: column;
+}
+
+.cinter29{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 150px;
+}
+
+.cinter30{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 30px;
+}
+
+.cinter31{
+    color: #494949;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.cinter32{
+    text-decoration: none;
+    color: white;
+}
